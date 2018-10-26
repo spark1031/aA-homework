@@ -22,6 +22,7 @@ if __FILE__ == $PROGRAM_NAME
   new_stack = Stack.new
   new_stack.push(1)
   new_stack.push("hello")
+  p new_stack.arr #=> [1,"hello"]
   new_stack.push(7)
   p new_stack.arr #=> [1,"hello",7]
   new_stack.pop
